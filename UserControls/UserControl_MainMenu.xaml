@@ -8,11 +8,11 @@
              d:DesignHeight="450" d:DesignWidth="800">
     <Border>
         <Border.Background >
-            <SolidColorBrush Color="Black"/>
+            <!--<SolidColorBrush Color="Black"/>-->
             <!--<ImageBrush ImageSource="C:\Users\joraa\source\repos\Space Shooter\Images\background.jpg"
                         Stretch="UniformToFill"/>-->
-            <!--<ImageBrush ImageSource="pack://application:,,,/Images/background.jpg"
-                        Stretch="UniformToFill"/>-->
+            <ImageBrush ImageSource="pack://application:,,,/images/background.jpg"
+                        Stretch="uniformtofill"/>
             <!--<ImageBrush  ImageSource= "/Images/background.jpg"/>-->
     
         </Border.Background>
@@ -26,7 +26,7 @@
 
             <TextBlock Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="42" FontWeight="Bold" 
                        Text="Space Shooter" Foreground="White" FontFamily="pack://application:,,,/#Font"/>
-            <Image Grid.Row="1" Source="pack://application:,,,/Images/background.jpg"/>
+            <!--<Image Grid.Row="1" Source="pack://application:,,,/Images/background.jpg"/>-->
             <Grid Grid.Row="1">
                 <Grid.RowDefinitions>
                     <RowDefinition/>
@@ -38,7 +38,7 @@
                 <Button Grid.Row="1" Width="150" Height="50" Content="Scores" FontSize="24"/>
                 <Button Grid.Row="2" Width="150" Height="50" Content="Options" FontSize="24"/>
                 <Button Grid.Row="3" Width="150" Height="50" Content="Exit" FontSize="24"/>
-                <Image Grid.Row="2" Source="C:\Users\joraa\source\repos\Space Shooter\Images\background.jpg"/>
+                <!--<Image Grid.Row="2" Source="C:\Users\joraa\source\repos\Space Shooter\Images\background.jpg"/>-->
             </Grid>
         </Grid>
     </Border>
