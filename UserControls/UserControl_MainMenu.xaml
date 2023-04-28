@@ -12,7 +12,7 @@
             <!--<ImageBrush ImageSource="C:\Users\joraa\source\repos\Space Shooter\Images\background.jpg"
                         Stretch="UniformToFill"/>-->
             <ImageBrush ImageSource="pack://application:,,,/images/background.jpg"
-                        Stretch="uniformtofill"/>
+                        Stretch="UniformToFill"/>
             <!--<ImageBrush  ImageSource= "/Images/background.jpg"/>-->
     
         </Border.Background>
